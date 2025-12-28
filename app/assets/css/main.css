@@ -1,6 +1,7 @@
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+
 @import "tailwindcss";
 @import "@nuxt/ui";
-
 @source "../../../content/**/*";
 
 @theme static {
@@ -18,37 +19,6 @@
   --color-green-800: #016538;
   --color-green-900: #0A5331;
   --color-green-950: #052E16;
-}
-
-
-@font-face {
-    font-family: 'g_cocoartz';
-    src: url('https://blog.howeverina.studio/font/Griun_Cocoartz-Rg.woff2') format('woff2');
-    font-weight: 400;
-    font-display: swap;
-    ascent-override: 80%;  /* 위쪽 여백 줄이기 */
-    descent-override: 20%; /* 아래쪽 여백 늘리기 */
-}
-
-@font-face {
-    font-family: 'GyeonggiMillenniumTitle';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Light.woff') format('woff');
-    font-weight: 300;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GyeonggiMillenniumTitle';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Light.woff') format('woff');
-    font-weight: 400;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GyeonggiMillenniumTitle';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Bold.woff') format('woff');
-    font-weight: 700;
-    font-display: swap;
 }
 
 :root {
@@ -74,7 +44,7 @@ body {
 }
 
 td, th, code {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 code {
@@ -82,7 +52,7 @@ code {
 }
 
 * {
-  font-family:'GyeonggiMillenniumTitle';
+  font-family: Galmuri11;
 }
 
 td, th {
