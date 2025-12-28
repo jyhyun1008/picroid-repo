@@ -1,27 +1,62 @@
-# picroid-repo
+# Nuxt Docs Template
 
-![](./thumb.png)
+[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
 
-> Picrew for Papercraft
+Use this template to build your own documentation with [Nuxt UI](https://ui.nuxt.com) quickly.
 
-페이퍼크래프트 도면을 만드는 메이커입니다. 완성된 도면은 상업적 이용만 아니면 무엇이든 가능합니다.
+- [Live demo](https://docs-template.nuxt.dev/)
+- [Documentation](https://ui.nuxt.com/docs/getting-started/installation)
 
-* 만드실 때는 화상을 다운받아 A4용지에 꽉 차게 인쇄해주시면 됩니다. 
-* 앞머리, 뒷머리, 추가파츠 일부는 좌우반전으로 한 장 더 인쇄해서 붙이는 것을 권장합니다.
-* 해상도를 올리고 싶으신 경우 waifu2x 등의 프로그램을 이용해주세요.
+<a href="https://docs-template.nuxt.dev/" target="_blank">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/docs-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/docs-light.png">
+    <img alt="Nuxt Docs Template" src="https://ui.nuxt.com/assets/templates/nuxt/docs-light.png">
+  </picture>
+</a>
 
-# 사용범위
+## Quick Start
 
-* 개인적 이용
-* 비상업적 배포
-* 전체연령가 수준에서의 가공
+```bash [Terminal]
+npm create nuxt@latest -- -t github:nuxt-ui-templates/docs
+```
 
-# 재배포 허용 범위
+## Deploy your own
 
-모든 재배포는 원작자 및 원작 픽크루 링크를 표기하는 것을 원칙으로 합니다.
-* 도면의 빈 공간에 
-* 파츠를 추가하여 배포하는 것
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=docs&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fdocs&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fdocs-dark.png&demo-url=https%3A%2F%2Fdocs-template.nuxt.dev%2F&demo-title=Nuxt%20Docs%20Template&demo-description=A%20documentation%20template%20powered%20by%20Nuxt%20Content.)
 
-# NG!
+## Setup
 
-* 모든 형태의 상업적 이용
+Make sure to install the dependencies:
+
+```bash
+pnpm install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+pnpm dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+pnpm build
+```
+
+Locally preview production build:
+
+```bash
+pnpm preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Renovate integration
+
+Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.

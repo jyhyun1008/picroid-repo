@@ -1,0 +1,1 @@
+export { default } from "/Users/jay/Documents/GitHub/picroid-repo/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue";

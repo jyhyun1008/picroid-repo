@@ -1,0 +1,136 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@source "../../../content/**/*";
+
+@theme static {
+  --container-8xl: 90rem;
+  --font-sans: 'Public Sans', sans-serif;
+
+  --color-green-50: #EFFDF5;
+  --color-green-100: #D9FBE8;
+  --color-green-200: #B3F5D1;
+  --color-green-300: #75EDAE;
+  --color-green-400: #00DC82;
+  --color-green-500: #00C16A;
+  --color-green-600: #00A155;
+  --color-green-700: #007F45;
+  --color-green-800: #016538;
+  --color-green-900: #0A5331;
+  --color-green-950: #052E16;
+}
+
+
+@font-face {
+    font-family: 'g_cocoartz';
+    src: url('https://blog.howeverina.studio/font/Griun_Cocoartz-Rg.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+    ascent-override: 80%;  /* 위쪽 여백 줄이기 */
+    descent-override: 20%; /* 아래쪽 여백 늘리기 */
+}
+
+@font-face {
+    font-family: 'GyeonggiMillenniumTitle';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GyeonggiMillenniumTitle';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Light.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GyeonggiMillenniumTitle';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Bold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+:root {
+  --ui-container: var(--container-8xl);
+}
+
+body {
+  font-size: 18px;
+}
+
+.titlebg {
+  background-image: url(/images/sample2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.titlebg > .flex-col {
+  background-color: #ffffffdd;
+}
+
+.titlebg .text-lg a {
+  color: var(--ui-primary);
+}
+
+td, th, code {
+  font-size: 18px;
+}
+
+code {
+  color: var(--ui-primary);
+}
+
+* {
+  font-family:'GyeonggiMillenniumTitle';
+}
+
+td, th {
+  text-align: center;
+}
+
+th:nth-child(1), td:nth-child(1) {
+  width: 20%;
+}
+
+td:nth-child(1) img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: 20%;
+}
+
+.coin {
+  height: 1.5rem;
+  width: 1.5rem;
+  display: inline;
+}
+
+.crop-outfit {
+    width: 72px; 
+    height: 72px; 
+    overflow: hidden;
+    background-image: url(https://github.com/jyhyun1008/picroid/blob/main/picrew/parts/1_base/0_humanEar/cream.png?raw=true);
+    background-size: 375%;
+    background-position: -22px -390px;
+}
+.crop-outfit img {
+    max-width: none;
+    width: 270px; 
+    height: 480px; 
+    margin: -390px 0 0 -22px;
+}
+
+.crop-face {
+    width: 72px; 
+    height: 72px; 
+    overflow: hidden;
+    background-image: url(https://github.com/jyhyun1008/picroid/blob/main/picrew/parts/1_base/0_humanEar/cream.png?raw=true);
+    background-size: 375%;
+    background-position: -22px -320px;
+}
+.crop-face img {
+    max-width: none;
+    width: 270px; 
+    height: 480px; 
+    margin: -320px 0 0 -22px;
+}
