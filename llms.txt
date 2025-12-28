@@ -8,7 +8,7 @@
 
 ## Getting Started
 
-- [Picroid 픽크로이드](https://picroid.howeverina.studio/getting-started): Picrew for Papercraft
+- [소개](https://picroid.howeverina.studio/getting-started): Picrew for Papercraft
 
 ## Essentials
 
