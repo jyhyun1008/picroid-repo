@@ -111,13 +111,13 @@ td:nth-child(1) img {
     overflow: hidden;
     background-image: url(https://github.com/jyhyun1008/picroid/blob/main/picrew/parts/1_base/0_humanEar/cream.png?raw=true);
     background-size: 375%;
-    background-position: -22px -390px;
+    background-position: -23px -390px;
 }
 .crop-outfit img {
     max-width: none;
     width: 270px; 
     height: 480px; 
-    margin: -390px 0 0 -22px;
+    margin: -390px 0 0 -23px;
 }
 
 .crop-face {
@@ -126,13 +126,13 @@ td:nth-child(1) img {
     overflow: hidden;
     background-image: url(https://github.com/jyhyun1008/picroid/blob/main/picrew/parts/1_base/0_humanEar/cream.png?raw=true);
     background-size: 375%;
-    background-position: -22px -320px;
+    background-position: -23px -320px;
 }
 .crop-face img {
     max-width: none;
     width: 270px; 
     height: 480px; 
-    margin: -320px 0 0 -22px;
+    margin: -320px 0 0 -23px;
 }
 
 td {
