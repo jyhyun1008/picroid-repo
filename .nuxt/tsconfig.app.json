@@ -149,7 +149,7 @@
         "./mdc-imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/dev"
+        "./manifest/meta/0a7afaab-0472-4aa8-8698-f6037e45dcc9"
       ],
       "#components": [
         "./components"
@@ -240,7 +240,7 @@
     "../node_modules/nuxt-site-config/dist/dist/runtime/server",
     "../node_modules/nuxt-site-config/dist/*.*",
     "../node_modules/nuxt-site-config/dist/dist/*.*",
-    "dev",
+    "../.output",
     "../server"
   ]
 }

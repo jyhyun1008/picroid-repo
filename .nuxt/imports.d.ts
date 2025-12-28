@@ -55,7 +55,6 @@ export { queryCollection, queryCollectionSearchSections, queryCollectionNavigati
 export { defineOgImage } from '../node_modules/nuxt-og-image/dist/runtime/app/composables/defineOgImage';
 export { defineOgImageComponent } from '../node_modules/nuxt-og-image/dist/runtime/app/composables/defineOgImageComponent';
 export { defineOgImageScreenshot } from '../node_modules/nuxt-og-image/dist/runtime/app/composables/defineOgImageScreenshot';
-export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { flatUnwrap as unwrapSlot } from '../node_modules/@nuxtjs/mdc/dist/runtime/utils/node';
 export { parseMarkdown } from '../node_modules/@nuxtjs/mdc/dist/runtime/parser';
 export { stringifyMarkdown } from '../node_modules/@nuxtjs/mdc/dist/runtime/stringify';
