@@ -60,13 +60,13 @@ body {
 }
 
 .titlebg {
-  background-image: url(/images/sample2.png);
+  background-image: url(/images/sample.png);
   background-position: center;
   background-size: cover;
 }
 
 .titlebg > .flex-col {
-  background-color: #ffffffdd;
+  background-color: #ffffff99;
 }
 
 .titlebg .text-lg a {

@@ -1,7 +1,7 @@
 ---
 seo:
   title: Picroid 픽크로이드
-  description: 느긋하게 게임을 진행하는 유저가 플레이 중 알게 된 정보를 바탕으로 작성하는 위키
+  description: "Picrew for Papercraft"
 ---
 
 ::u-page-hero{class="dark:bg-gradient-to-b from-neutral-900 to-neutral-950 titlebg"}
@@ -12,12 +12,10 @@ orientation: horizontal
 :hero-background
 
 #title
-뭐든 해드리는 <br>[커미션 샘플 페이지]{.text-primary}.
+종이모형 메이커 <br>[픽크로이드]{.text-primary}.
 
 #description
-안녕하세요, 이곳은 연이나의 커미션 작업물 및 샘플을 전시하는 곳입니다. 커미션 신청 시 참고 바랍니다.
-
-이 사이트는 nuxt의 템플릿을 이용하여 직접 만들었으나, 웹사이트 관련 커미션은 받지 않습니다. 음악과 일러스트 약간만 취급합니다.
+픽크로이드와 함께 여러 캐릭터들의 종이모형을 제작해 보세요!
 
 #links
   :::u-button
@@ -31,14 +29,14 @@ orientation: horizontal
 
   :::u-button
   ---
-  icon: i-simple-icons-github
+  icon: i-simple-icons-picrew
   color: neutral
   variant: outline
   size: xl
-  to: https://crepe.cm/@however_ina
+  to: https://picrew.me/ja/secret_image_maker/KhQ2JLsJFQbefO1p
   target: _blank
   ---
-  크레페 구경하기
+  픽크루 링크
   :::
 
 #default
